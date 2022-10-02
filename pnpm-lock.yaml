@@ -49,6 +49,35 @@ importers:
       tsconfig: link:../../packages/tsconfig
       typescript: 4.8.3
 
+  apps/r11y.news:
+    specifiers:
+      '@babel/core': ^7.0.0
+      '@types/node': ^17.0.12
+      '@types/react': 18.0.17
+      eslint: 7.32.0
+      eslint-config-custom: workspace:*
+      next: 12.2.5
+      next-transpile-modules: 9.0.0
+      react: 18.2.0
+      react-dom: 18.2.0
+      tsconfig: workspace:*
+      typescript: ^4.5.3
+      ui: workspace:*
+    dependencies:
+      next: 12.2.5_vyk55zyolcaieh7zfm7nf7uva4
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      ui: link:../../packages/ui
+    devDependencies:
+      '@babel/core': 7.19.0
+      '@types/node': 17.0.45
+      '@types/react': 18.0.17
+      eslint: 7.32.0
+      eslint-config-custom: link:../../packages/eslint-config-custom
+      next-transpile-modules: 9.0.0
+      tsconfig: link:../../packages/tsconfig
+      typescript: 4.8.3
+
   apps/web:
     specifiers:
       '@babel/core': ^7.0.0
@@ -77,6 +106,9 @@ importers:
       next-transpile-modules: 9.0.0
       tsconfig: link:../../packages/tsconfig
       typescript: 4.8.3
+
+  packages/config:
+    specifiers: {}
 
   packages/eslint-config-custom:
     specifiers:
@@ -833,10 +865,6 @@ packages:
     resolution: {integrity: sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==}
     engines: {node: '>= 6'}
     dev: true
-
-  /caniuse-lite/1.0.30001393:
-    resolution: {integrity: sha512-N/od11RX+Gsk+1qY/jbPa0R6zJupEa0lxeBG598EbrtblxVCTJsQwbRBm6+V+rxpc5lHKdsXb9RY83cZIPLseA==}
-    dev: false
 
   /caniuse-lite/1.0.30001406:
     resolution: {integrity: sha512-bWTlaXUy/rq0BBtYShc/jArYfBPjEV95euvZ8JVtO43oQExEN/WquoqpufFjNu4kSpi5cy5kMbNvzztWDfv1Jg==}
@@ -1882,7 +1910,7 @@ packages:
     dependencies:
       '@next/env': 12.2.5
       '@swc/helpers': 0.4.3
-      caniuse-lite: 1.0.30001393
+      caniuse-lite: 1.0.30001406
       postcss: 8.4.14
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
