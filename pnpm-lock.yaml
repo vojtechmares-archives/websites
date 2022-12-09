@@ -70,7 +70,7 @@ importers:
       eslint: 8.29.0
       eslint-config-custom: workspace:*
       next: 13.0.6
-      next-transpile-modules: 9.1.0
+      next-transpile-modules: 10.0.0
       react: 18.2.0
       react-dom: 18.2.0
       tsconfig: workspace:*
@@ -88,7 +88,7 @@ importers:
       '@types/react': 18.0.26
       eslint: 8.29.0
       eslint-config-custom: link:../../packages/eslint-config-custom
-      next-transpile-modules: 9.1.0
+      next-transpile-modules: 10.0.0
       tsconfig: link:../../packages/tsconfig
       typescript: 4.9.3
 
@@ -101,7 +101,7 @@ importers:
       eslint: 8.29.0
       eslint-config-custom: workspace:*
       next: 13.0.6
-      next-transpile-modules: 9.1.0
+      next-transpile-modules: 10.0.0
       react: 18.2.0
       react-dom: 18.2.0
       tsconfig: workspace:*
@@ -119,7 +119,7 @@ importers:
       '@types/react': 18.0.26
       eslint: 8.29.0
       eslint-config-custom: link:../../packages/eslint-config-custom
-      next-transpile-modules: 9.1.0
+      next-transpile-modules: 10.0.0
       tsconfig: link:../../packages/tsconfig
       typescript: 4.9.3
 
@@ -1925,11 +1925,10 @@ packages:
   /natural-compare/1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
 
-  /next-transpile-modules/9.1.0:
-    resolution: {integrity: sha512-yzJji65xDqcIqjvx5vPJcs1M+MYQTzLM1pXH/qf8Q88ohx+bwVGDc1AeV+HKr1NwvMCNTpwVPSFI7cA5WdyeWA==}
+  /next-transpile-modules/10.0.0:
+    resolution: {integrity: sha512-FyeJ++Lm2Fq31gbThiRCrJlYpIY9QaI7A3TjuhQLzOix8ChQrvn5ny4MhfIthS5cy6+uK1AhDRvxVdW17y3Xdw==}
     dependencies:
       enhanced-resolve: 5.10.0
-      escalade: 3.1.1
     dev: true
 
   /next/13.0.6_mqvh5p7ejg4taogoj6tpk3gd5a:
