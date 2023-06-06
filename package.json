@@ -12,7 +12,7 @@
     "start": "turbo run start",
     "clean": "turbo run clean",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{js,cjs,mjs,ts,tsx,md,mdx}\""
   },
   "devDependencies": {
     "eslint-config-custom": "workspace:*",
