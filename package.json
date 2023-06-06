@@ -15,7 +15,9 @@
     "format": "prettier --write \"**/*.{js,cjs,mjs,ts,tsx,md,mdx}\""
   },
   "devDependencies": {
-    "eslint-config-custom": "workspace:*",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-turbo": "^1.10.1",
     "prettier": "latest",
     "prettier-plugin-tailwindcss": "^0.3.0",
     "turbo": "latest"
