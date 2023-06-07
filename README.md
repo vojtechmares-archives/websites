@@ -1,3 +1,3 @@
-# Microsites
+# Websites
 
-Monorepo of my microsites
+Monorepo of my websites
